@@ -1,0 +1,105 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+
+.container {
+  display: flex;
+  min-height: 100vh;
+}
+
+
+.sidebar {
+  width: 260px;
+  background-color: #2e3d52;
+  color: rgb(255, 255, 255);
+  padding: 20px;
+}
+
+.profile {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.profile img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.profile h2 {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  margin: 20px 0;
+}
+
+nav ul li a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 16px;
+}
+
+
+.main-content {
+  flex: 1;
+  background: #070707;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+
+  background-image: url('universidad2.jpg');
+  background-size: cover;      
+  background-position: center;  
+  background-repeat: no-repeat; 
+}
+
+.card {
+  padding: 10px 15px;          
+  border-radius: 8px;
+  font-size: 14px;
+  width: 180px;               
+  height: auto;               
+  box-shadow: 0 2px 5px rgb(233, 233, 233);
+  color: rgb(250, 248, 248);
+}
+.footer {
+  width: 100%;
+  background-color: #2e3d52;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.footer img {
+  width: 100px;
+  height: auto;
+  opacity: 0.8;
+}
+
+.card .label {
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.card .value {
+  font-size: 15px;
+}
+
+
+.green { background-color: linear-gradient(to right, #4caf50, #f44336); }
+.green { background-color: #1aac4f; }
+.green { background-color: #1aac4f; }
+.green { background-color: #1aac4f; }
+.green{ background-color: #1aac4f; }
